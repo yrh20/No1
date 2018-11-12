@@ -5,6 +5,8 @@ import java.lang.reflect.Method;
 public class Text01 {
 
 	public static void main(String[] args) {
+		System.out.println("1");
+		
 /*			char r='a';
 		boolean b1=5!=8;
 		int i=2>>8;
@@ -30,7 +32,7 @@ public class Text01 {
 /*		int x=20;
 		while(x<=30)
 		{
-			System.out.println("¹þ¹þ"+x);
+			System.out.println("ï¿½ï¿½ï¿½ï¿½"+x);
 			x++;
 		}
 */		
