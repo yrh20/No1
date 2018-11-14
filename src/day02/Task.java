@@ -6,154 +6,155 @@ import org.omg.CORBA.INTERNAL;
 public class Task {
 
 	public static void main(String[] args) {
+		System.out.println("1");
 		/*
-		 * µÚÒ»Ìâ
+		 * ï¿½ï¿½Ò»ï¿½ï¿½
 		 */
 /*		Scanner cs=new Scanner(System.in);
 		
-		//½ÓÊÕÐÕÃû
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		System.out.println("Please input your name here:");
 		String name=cs.next();
 		
-		//½ÓÊÕÄêÁä
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		System.out.println("Please input your age here:");
 		int age=cs.nextInt();
 		
-		//½ÓÊÕÐÔ±ð
+		//ï¿½ï¿½ï¿½ï¿½ï¿½Ô±ï¿½
 		System.out.println("Please input your gender here:");
 		String gender=cs.next();
 		
-		//Êä³ö
+		//ï¿½ï¿½ï¿½
 		System.out.println("The computer recorded that:");
 		System.out.println("Your name is:"+name);
-		System.out.println("Your age is£º"+age);
-		System.out.println("Your age is£º"+gender);*/
+		System.out.println("Your age isï¿½ï¿½"+age);
+		System.out.println("Your age isï¿½ï¿½"+gender);*/
 		
 		
 		
 		/*
-		 * µÚ¶þÌâ
+		 * ï¿½Ú¶ï¿½ï¿½ï¿½
 		 */
 		
 /*		Scanner cs=new Scanner(System.in);
-		System.out.println("ÇëÊäÈëÔ²µÄ°ë¾¶£º");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô²ï¿½Ä°ë¾¶ï¿½ï¿½");
 		double r=cs.nextFloat();
 		
-		//¼ÆËãÖÜ³¤
+		//ï¿½ï¿½ï¿½ï¿½ï¿½Ü³ï¿½
 		double perimeter =2*3.14*r;
 		
-		//¼ÆËãÃæ»ý
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		double area=3.14*r*r;
 		
-		//Êä³ö
-		System.out.println("¸ÃÔ²µÄ°ë¾¶Îª£ºR="+r);
-		System.out.println("¸ÃÔ²µÄÖÜ³¤Îª£ºC=2*3.14*"+r+"="+perimeter);
-		System.out.println("¸ÃÔ²µÄÃæ»ýÎª£ºS=3.14*"+r+"*"+r+"="+area);*/
+		//ï¿½ï¿½ï¿½
+		System.out.println("ï¿½ï¿½Ô²ï¿½Ä°ë¾¶Îªï¿½ï¿½R="+r);
+		System.out.println("ï¿½ï¿½Ô²ï¿½ï¿½ï¿½Ü³ï¿½Îªï¿½ï¿½C=2*3.14*"+r+"="+perimeter);
+		System.out.println("ï¿½ï¿½Ô²ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½S=3.14*"+r+"*"+r+"="+area);*/
 		
 		
 		
 		/*
-		 * µÚÈýÌâ
+		 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		 */
 		
 /*		int i=10000;
-		System.out.println("±¾½ð£º"+i);
+		System.out.println("ï¿½ï¿½ï¿½ï¿½"+i);
 		
-		//»îÆÚÒ»Äê
+		//ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½
 		double CurrentOneYearOld=i+(i*0.0035);
 		double CurrentOneYear=Math.rint(CurrentOneYearOld);
-		System.out.println("»îÆÚ1Äê±¾½ð×Ü¼Æ£º"+Math.round(CurrentOneYear));
+		System.out.println("ï¿½ï¿½ï¿½ï¿½1ï¿½ê±¾ï¿½ï¿½ï¿½Ü¼Æ£ï¿½"+Math.round(CurrentOneYear));
 		
-		//¶¨ÆÚÒ»Äê
+		//ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½
 		double RegularIntervalsOneYearOld=i+(i*0.015);
 		double RegularIntervalsOneYear=Math.rint(RegularIntervalsOneYearOld);
-		System.out.println("¶¨ÆÚ1Äê±¾½ð×Ü¼Æ£º"+Math.round(RegularIntervalsOneYear));
+		System.out.println("ï¿½ï¿½ï¿½ï¿½1ï¿½ê±¾ï¿½ï¿½ï¿½Ü¼Æ£ï¿½"+Math.round(RegularIntervalsOneYear));
 		
-		//»îÆÚÁ½Äê
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		double CurrentTwoYearOld=i+((i*0.0035)*2);
 		double CurrentTwoYear=Math.rint(CurrentTwoYearOld);
-		System.out.println("»îÆÚ2Äê±¾½ð×Ü¼Æ£º"+Math.round(CurrentTwoYear));
+		System.out.println("ï¿½ï¿½ï¿½ï¿½2ï¿½ê±¾ï¿½ï¿½ï¿½Ü¼Æ£ï¿½"+Math.round(CurrentTwoYear));
 		
-		//¶¨ÆÚÁ½Äê
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		double RegularIntervalsTwoYearOld=i+((i*0.021)*2);
 		double RegularIntervalsTwoYear=Math.rint(RegularIntervalsTwoYearOld);
-		System.out.println("»îÆÚ2Äê±¾½ð×Ü¼Æ£º"+Math.round(RegularIntervalsTwoYear));*/
+		System.out.println("ï¿½ï¿½ï¿½ï¿½2ï¿½ê±¾ï¿½ï¿½ï¿½Ü¼Æ£ï¿½"+Math.round(RegularIntervalsTwoYear));*/
 		
 		
 		
 		/*
-		 * µÚËÄÌâ
+		 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		 */
 	/*	Scanner sc=new Scanner(System.in);
-		System.out.print("ÇëÊäÈëÒ»¸ö4Î»ÕýÕûÊý£º");
+		System.out.print("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½4Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		int data=sc.nextInt();
 		
-		//²ð·Ö¾ßÌåµÄÃ¿Ò»¸öÊý
-		//¸öÎ»Êý
+		//ï¿½ï¿½Ö¾ï¿½ï¿½ï¿½ï¿½Ã¿Ò»ï¿½ï¿½ï¿½ï¿½
+		//ï¿½ï¿½Î»ï¿½ï¿½
 		int g=data%10;
-		//Ê®Î»Êý
+		//Ê®Î»ï¿½ï¿½
 		int s=data%100/10;
-		//°ÙÎ»Êý
+		//ï¿½ï¿½Î»ï¿½ï¿½
 		int b=data%1000/100;
-		//Ç§Î»Êý
+		//Ç§Î»ï¿½ï¿½
 		int q=data/1000;
 		
-		//Ã¿¸öÊý¼Ó5
-		//¸öÎ»Êý
+		//Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½5
+		//ï¿½ï¿½Î»ï¿½ï¿½
 		int Addg=(g+5)%10;
-		//Ê®Î»Êý
+		//Ê®Î»ï¿½ï¿½
 		int Adds=(s+5)%10;
-		//°ÙÎ»Êý
+		//ï¿½ï¿½Î»ï¿½ï¿½
 		int Addb=(b+5)%10;
-		//Ç§Î»Êý
+		//Ç§Î»ï¿½ï¿½
 		int Addq=(q+5)%10;
 		
-		//µÚÒ»´Î½»»»
+		//ï¿½ï¿½Ò»ï¿½Î½ï¿½ï¿½ï¿½
 		int temp=Addq;
 		Addq=Addg;
 		Addg=temp;
 		
-		//µÚ¶þ´Î½»»»
+		//ï¿½Ú¶ï¿½ï¿½Î½ï¿½ï¿½ï¿½
 		temp=Adds;
 		Adds=Addb;
 		Addb=temp;
 		
-		System.out.println("¼ÓÃÜºóµÄÊý×ÖÎª£º"+Addq+Addb+Adds+Addg);*/
+		System.out.println("ï¿½ï¿½ï¿½Üºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½"+Addq+Addb+Adds+Addg);*/
 		
 		/*
-		 * ¿ÉÑ¡Ìâ
+		 * ï¿½ï¿½Ñ¡ï¿½ï¿½
 		 */
 		Scanner sc=new Scanner(System.in);
-		System.out.println("ÊäÈëÎÄ×Ö");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		String text=sc.nextLine();
 		
 		/*
-		 * È¡³öÃ¿Ò»¸öÊý
+		 * È¡ï¿½ï¿½Ã¿Ò»ï¿½ï¿½ï¿½ï¿½
 		 */
 		char yi=text.charAt(0);
 		char er=text.charAt(1);
 		char san=text.charAt(2);
 		char si=text.charAt(3);
 		
-		//ÃØÔ¿
+		//ï¿½ï¿½Ô¿
 		int i=8;
 		
-		//¶ÔÃ¿¸öÊý¼ÓÃÜ
+		//ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		char encryptionyi=(char) (yi^8);
 		char encryptioner=(char) (er^8);
 		char encryptionsan=(char) (san^8);
 		char encryptionsi=(char) (si^8);
 		
-		//¶ÔÃ¿¸öÊý½âÃÜ
+		//ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		char decodeyi=(char) (encryptionyi^8);
 		char decodeer=(char) (encryptioner^8);
 		char decodesan=(char) (encryptionsan^8);
 		char decodesi=(char) (encryptionsi^8);
 		
-		//Æ´½ÓÊä³ö
-		System.out.println("¼ÓÃÜÇ°Ô­ÎÄ£º"+text);
-		System.out.println("ÃÜÎÄ£º"+encryptionyi+encryptioner+encryptionsan+encryptionsi);
-		System.out.println("½âÃÜºóÔ­ÎÄ£º"+decodeyi+decodeer+decodesan+decodesi);
+		//Æ´ï¿½ï¿½ï¿½ï¿½ï¿½
+		System.out.println("ï¿½ï¿½ï¿½ï¿½Ç°Ô­ï¿½Ä£ï¿½"+text);
+		System.out.println("ï¿½ï¿½ï¿½Ä£ï¿½"+encryptionyi+encryptioner+encryptionsan+encryptionsi);
+		System.out.println("ï¿½ï¿½ï¿½Üºï¿½Ô­ï¿½Ä£ï¿½"+decodeyi+decodeer+decodesan+decodesi);
 		
 		
 	}
