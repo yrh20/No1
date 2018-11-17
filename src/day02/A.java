@@ -4,6 +4,6 @@ public class A {
 	
 	int a;
 	int b;
-	int idea=0;
+	int idea=10;
 
 }
