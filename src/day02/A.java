@@ -5,6 +5,6 @@ public class A {
 	int a;
 	int b;
 	int idea=11;
-	int ecp=11;
+	int ecp=10;
 
 }
