@@ -7,58 +7,59 @@ import javax.swing.text.html.CSS;
 
 public class Test02 {
 
-	public static void main(String[] args) {		
+	public static void main(String[] args) {
+		System.out.println("idea0001");
 		/*
-		 * Á·Ï°2
+		 * ï¿½ï¿½Ï°2
 		 */
 /*		Scanner cs=new Scanner(System.in);
-		System.out.println("ÇëÊäÈëÄãµÄ»áÔ±ºÅ£º");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä»ï¿½Ô±ï¿½Å£ï¿½");
 		int account=cs.nextInt();
 		int b=account%1000/100;
 		int random=(int)(10*Math.random());
 		
-		System.out.println("»áÔ±ºÅ°ÙÎ»ÊýÊÇ£º"+b);
-		System.out.println("Ëæ»úÊýÊÇ£º"+random);
+		System.out.println("ï¿½ï¿½Ô±ï¿½Å°ï¿½Î»ï¿½ï¿½ï¿½Ç£ï¿½"+b);
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç£ï¿½"+random);
 		
 		if(b==random)
 		{
-			System.out.println(account+"»áÔ±£¬ÄúµÄÐÒÔË»áÔ±");
+			System.out.println(account+"ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë»ï¿½Ô±");
 		}else {
-			System.out.println(account+"£¬Ð»Ð»ÄúµÄÖ§³Ö");
+			System.out.println(account+"ï¿½ï¿½Ð»Ð»ï¿½ï¿½ï¿½ï¿½Ö§ï¿½ï¿½");
 		}*/
 		
 		
 		/*
-		 * »áÔ±µÇÂ¼Á·Ï°Ìâ
+		 * ï¿½ï¿½Ô±ï¿½ï¿½Â¼ï¿½ï¿½Ï°ï¿½ï¿½
 		 */
 /*		Scanner sc=new Scanner(System.in);
-		System.out.println("ÇëÊäÈëÓÃ»§Ãû£º");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½");
 		String name=sc.next();
-		System.out.println("ÇëÊäÈëÃÜÂë£º");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë£º");
 		int password=sc.nextInt();
 
-		if(name.equals("Íô") && password ==123)
+		if(name.equals("ï¿½ï¿½") && password ==123)
 		{
-			System.out.println("»¶Ó­Äú£¬Íô");
+			System.out.println("ï¿½ï¿½Ó­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		}else{
-			System.out.println("¶Ô²»Æð£¬Äú²»ÊÇ»áÔ±");
+			System.out.println("ï¿½Ô²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç»ï¿½Ô±");
 		}*/
 		
 		
 		/*
-		 * Á·Ï°4
+		 * ï¿½ï¿½Ï°4
 		 */
 /*		int age=16;
 		String sex="Å®";
 
 		if(age>7)
 		{
-			System.out.println("¿ÉÒÔ°á×À×Ó£¬Âú7Ëê");
-		}else if(age>5 && sex.equals("ÄÐ"))
+			System.out.println("ï¿½ï¿½ï¿½Ô°ï¿½ï¿½ï¿½ï¿½Ó£ï¿½ï¿½ï¿½7ï¿½ï¿½");
+		}else if(age>5 && sex.equals("ï¿½ï¿½"))
 		{
-			System.out.println("¿ÉÒÔ°á×À×Ó£¬Âú5ËêÇÒÄÐÉú");
+			System.out.println("ï¿½ï¿½ï¿½Ô°ï¿½ï¿½ï¿½ï¿½Ó£ï¿½ï¿½ï¿½5ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		}else{
-			System.out.println("ÄãÌ«ÄêÇáÁË");
+			System.out.println("ï¿½ï¿½Ì«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		}*/
 		
 /*		double r=4*(Math.random());
@@ -70,9 +71,9 @@ public class Test02 {
 		System.out.println(Math.PI);*/
 		
 /*		Scanner sc=new Scanner(System.in);
-		System.out.println("ÇëÊäÈë¿Í»§ÀàÐÍ£º1ÆÕÍ¨£¬2»áÔ±");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í»ï¿½ï¿½ï¿½ï¿½Í£ï¿½1ï¿½ï¿½Í¨ï¿½ï¿½2ï¿½ï¿½Ô±");
 		int type=sc.nextInt();
-		System.out.println("ÇëÊäÈë¹ºÎï½ð¶î£º");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ë¹ºï¿½ï¿½ï¿½î£º");
 		int money=sc.nextInt();
 		
 		switch(type)
@@ -80,158 +81,158 @@ public class Test02 {
 		case 1:
 			if(money>=100){
 				int jine=(int)(money*0.9);
-				System.out.println("ÆÕÍ¨´ò9ÕÛ"+jine);
+				System.out.println("ï¿½ï¿½Í¨ï¿½ï¿½9ï¿½ï¿½"+jine);
 			}else {
-				System.out.println("ÆÕÍ¨²»´òÕÛ"+money);
+				System.out.println("ï¿½ï¿½Í¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"+money);
 			}
 			break;
 		
 		case 2:
 			if(money>=200){
 				int jine=(int)(money-(money*0.075));
-				System.out.println("»áÔ±´ò9ÕÛ"+jine);
+				System.out.println("ï¿½ï¿½Ô±ï¿½ï¿½9ï¿½ï¿½"+jine);
 			}else {
-				System.out.println("»áÔ±²»´òÕÛ"+money);
+				System.out.println("ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"+money);
 			}
 		break;
 		
 		default:
-			System.out.println("ÄãÊÇÍâÐÇÈË°É£¿");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë°É£ï¿½");
 		}*/
 		
 /*		if(type==1 && money>=100)
 		{
 			int jine=(int)(money*0.9);
-			System.out.println("ÆÕÍ¨´ò9ÕÛ"+jine);
+			System.out.println("ï¿½ï¿½Í¨ï¿½ï¿½9ï¿½ï¿½"+jine);
 		}else if(type==1 && money<100){
-			System.out.println("ÆÕÍ¨²»´òÕÛ"+money);
+			System.out.println("ï¿½ï¿½Í¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"+money);
 		}
 		
 		if(type==2 && money>=200)
 		{
 			int jine=(int)(money-(money*0.075));
-			System.out.println("»áÔ±´ò9ÕÛ"+jine);
+			System.out.println("ï¿½ï¿½Ô±ï¿½ï¿½9ï¿½ï¿½"+jine);
 		}else if(type==2 && money<200){
-			System.out.println("»áÔ±²»´òÕÛ"+money);
+			System.out.println("ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"+money);
 		}*/
 		
 /*		long money=10000000;
 		if(money>=5000000)
 		{
-			System.out.println("¿­µÏÀ­¿Ë");	
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");	
 		}else if (money>=1000000) {
-			System.out.println("ÅÁÈøÌØ");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		}else if(money>=500000)	{
-			System.out.println("¿¨ÂÞÀ­");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		}else if(money>=100000)	{
-			System.out.println("°ÂÍÐ");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½");
 		}else {
-			System.out.println("ËÄÇýÈü³µ+ËÄ½ÚÄÏæÚµç³Ø");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½+ï¿½Ä½ï¿½ï¿½ï¿½ï¿½Úµï¿½ï¿½");
 		}*/
 		
 /*		int i=4;
 		switch(i)
 		{
 		case 1:
-			System.out.println("½±Àø500¿éÇ®");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½500ï¿½ï¿½Ç®");
 			break;
 		
 		case 2:
-			System.out.println("½±Àø300¿éÇ®");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½300ï¿½ï¿½Ç®");
 			break;
 			
 		case 3:
-			System.out.println("½±Àø100¿éÇ®");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½100ï¿½ï¿½Ç®");
 			break;
 			
 		case 4:
-			System.out.println("ÍùºóÒª¼ÓÉÏÍí×ÔÏ°");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï°");
 			break;
 		}
 			*/
 			
-		//Ëæ»úÉú³É×ÖÄ¸
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¸
 /*		char c=(char)(int)(Math.random()*26+97);
 		System.out.println(c);
 		
 		switch(c){
 		case 'a':
-			System.out.println("ÔªÒô×ÖÄ¸");
+			System.out.println("Ôªï¿½ï¿½ï¿½ï¿½Ä¸");
 			break;
 		case 'e':
-			System.out.println("ÔªÒô×ÖÄ¸");
+			System.out.println("Ôªï¿½ï¿½ï¿½ï¿½Ä¸");
 			break;
 		case 'i':
-			System.out.println("ÔªÒô×ÖÄ¸");
+			System.out.println("Ôªï¿½ï¿½ï¿½ï¿½Ä¸");
 			break;
 		case 'o':
-			System.out.println("ÔªÒô×ÖÄ¸");
+			System.out.println("Ôªï¿½ï¿½ï¿½ï¿½Ä¸");
 			break;
 		case 'u':
-			System.out.println("ÔªÒô×ÖÄ¸");
+			System.out.println("Ôªï¿½ï¿½ï¿½ï¿½Ä¸");
 			break;
 			
 		case 'y':
-			System.out.println("°ëÔªÒô×ÖÄ¸");
+			System.out.println("ï¿½ï¿½Ôªï¿½ï¿½ï¿½ï¿½Ä¸");
 			break;
 		case 'w':
-			System.out.println("°ëÔªÒô×ÖÄ¸");
+			System.out.println("ï¿½ï¿½Ôªï¿½ï¿½ï¿½ï¿½Ä¸");
 			break;
 			
 			default:
-				System.out.println("¸¨Òô×ÖÄ¸");
+				System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¸");
 		}*/
 		
 		/*
-		 * SwitchºÍifÇ¶Ì×Ê¹ÓÃ
+		 * Switchï¿½ï¿½ifÇ¶ï¿½ï¿½Ê¹ï¿½ï¿½
 		 */
 /*		Scanner sc=new Scanner(System.in);
-		System.out.println("ÇëÊäÈë²ÖÎ»£¬1±íÊ¾Í·µÈ²Õ£¬2±íÊ¾¾­¼Ã²Õ");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½1ï¿½ï¿½Ê¾Í·ï¿½È²Õ£ï¿½2ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½Ã²ï¿½");
 		int Positions=sc.nextInt();
-		System.out.println("ÇëÊäÈëÔÂ·Ý£¬4-10ÔÂÎªÍú¼¾£¬ÆäËûÔÂ·ÝÎªµ­¼¾");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â·Ý£ï¿½4-10ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â·ï¿½Îªï¿½ï¿½ï¿½ï¿½");
 		int month=sc.nextInt();
 		
 		switch(Positions)
 		{
-		//Í·µÈ²Õ
+		//Í·ï¿½È²ï¿½
 		case 1:
-			//Í·µÈ²ÕÍú¼¾
+			//Í·ï¿½È²ï¿½ï¿½ï¿½ï¿½ï¿½
 			if(month>=4 && month<=10)
 			{
 				int money=(int)(5000*0.9);
-				System.out.println("Í·µÈ²Õ+Íú¼¾£º"+money);
+				System.out.println("Í·ï¿½È²ï¿½+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"+money);
 				break;
-			//Í·µÈ²Õµ­¼¾
+			//Í·ï¿½È²Õµï¿½ï¿½ï¿½
 			}else{
 				int money=(int)(5000*0.5);
-				System.out.println("Í·µÈ²Õ+µ­¼¾£º"+money);
+				System.out.println("Í·ï¿½È²ï¿½+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"+money);
 				break;
 			}
 			
-		//¾­¼Ã²Õ
+		//ï¿½ï¿½ï¿½Ã²ï¿½
 		case 2:
-			//¾­¼Ã²ÕÍú¼¾
+			//ï¿½ï¿½ï¿½Ã²ï¿½ï¿½ï¿½ï¿½ï¿½
 			if(month>=4 && month<=10)
 			{
 				int money=(int)(5000*0.8);
-				System.out.println("¾­¼Ã²Õ+Íú¼¾£º"+money);
+				System.out.println("ï¿½ï¿½ï¿½Ã²ï¿½+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"+money);
 				break;
-			//¾­¼Ã²Õµ­¼¾
+			//ï¿½ï¿½ï¿½Ã²Õµï¿½ï¿½ï¿½
 			}else{
 				int money=(int)(5000*0.4);
-				System.out.println("¾­¼Ã²Õ+µ­¼¾£º"+money);
+				System.out.println("ï¿½ï¿½ï¿½Ã²ï¿½+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"+money);
 				break;
 			}
 				
 		default:
-			System.out.println("ÍâÐÇÈËÀ´À²");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		}*/
 		
 		
 		/**
-		 * ÓÃwhileºÍforÑ­»··Ö±ð¼ÆËã100ÒÔÄÚÆæÊýºÍÅ¼ÊýµÄºÍ£¬²¢Êä³ö¡£
+		 * ï¿½ï¿½whileï¿½ï¿½forÑ­ï¿½ï¿½ï¿½Ö±ï¿½ï¿½ï¿½ï¿½100ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å¼ï¿½ï¿½ï¿½ÄºÍ£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		 */
-		//whileÑ­»·
+		//whileÑ­ï¿½ï¿½
 		int oushusum=0;
 		int jishusum=0;
 		int i=0;
@@ -245,11 +246,11 @@ public class Test02 {
 			}
 			i++;
 		}
-		System.out.println("Å¼ÊýºÍ"+oushusum);
-		System.out.println("ÆæÊýºÍ"+jishusum);
+		System.out.println("Å¼ï¿½ï¿½ï¿½ï¿½"+oushusum);
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"+jishusum);
 
 		
-		//forÑ­»·
+		//forÑ­ï¿½ï¿½
 /*		int jishusum=0;
 		int oushusum=0;
 		for(int i=0;i<=100;i++){
@@ -260,11 +261,11 @@ public class Test02 {
 				jishusum+=i;
 			}
 		}
-		System.out.println("Å¼ÊýºÍÊÇ£º"+oushusum);
-		System.out.println("ÆæÊýºÍÊÇ£º"+jishusum);*/
+		System.out.println("Å¼ï¿½ï¿½ï¿½ï¿½ï¿½Ç£ï¿½"+oushusum);
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç£ï¿½"+jishusum);*/
 		
 		/**
-		 * ÓÃwhileºÍforÑ­»·Êä³ö1-1000Ö®¼äÄÜ±»5Õû³ýµÄÊý£¬ÇÒÃ¿ÐÐÊä³ö3¸ö
+		 * ï¿½ï¿½whileï¿½ï¿½forÑ­ï¿½ï¿½ï¿½ï¿½ï¿½1-1000Ö®ï¿½ï¿½ï¿½Ü±ï¿½5ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½3ï¿½ï¿½
 		 */
 		//for
 /*		int y=0;
@@ -299,7 +300,7 @@ public class Test02 {
 */
 		
 		/**
-		 * Ñ­»·Â¼ÈëÄ³Ñ§Éú5ÃÅ¿ÎµÄ³É¼¨²¢ÇÒ¼ÆËãÆ½¾ù·Ö,Èç¹û·ÖÊýÂ¼ÈëÎª¸ºÊý,ÖØÐÂÂ¼Èë
+		 * Ñ­ï¿½ï¿½Â¼ï¿½ï¿½Ä³Ñ§ï¿½ï¿½5ï¿½Å¿ÎµÄ³É¼ï¿½ï¿½ï¿½ï¿½Ò¼ï¿½ï¿½ï¿½Æ½ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¼ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½Â¼ï¿½ï¿½
 		 */
 /*		double sum=0;
 		double avg=0;
@@ -307,13 +308,13 @@ public class Test02 {
 		for(int i=1;i<=5;i++)
 		{
 			Scanner sc=new Scanner(System.in);
-			System.out.println("ÇëÊäÈëµÚ"+i+"ÃÅ³É¼¨£º");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"+i+"ï¿½Å³É¼ï¿½ï¿½ï¿½");
 			double score=sc.nextDouble();
 			if(score<0)
 			{
-				System.out.println("·ÖÊýÎª¸ºÊý£¬ÖØÐÂÂ¼Èë");
+				System.out.println("ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¼ï¿½ï¿½");
 				
-				//Èç¹ûËã´í£¬ÔòÖÃÎª0£¬ÖØÐÂ¼ÆËã
+				//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îª0ï¿½ï¿½ï¿½ï¿½ï¿½Â¼ï¿½ï¿½ï¿½
 				i=0;
 				sum=0;
 				avg=0;
@@ -322,11 +323,11 @@ public class Test02 {
 			sum+=score;
 		}
 		avg=sum/5;
-		System.out.println("×Ü³É¼¨£º"+sum);
-		System.out.println("Æ½¾ù·Ö£º"+avg);
+		System.out.println("ï¿½Ü³É¼ï¿½ï¿½ï¿½"+sum);
+		System.out.println("Æ½ï¿½ï¿½ï¿½Ö£ï¿½"+avg);
 */
 		
-//		±à³ÌÇó£º1£¡+2£¡+¡­¡­+10!
+//		ï¿½ï¿½ï¿½ï¿½ï¿½1ï¿½ï¿½+2ï¿½ï¿½+ï¿½ï¿½ï¿½ï¿½+10!
 /*		for(int i=1;i<=10;i++)
 		{
 			int sum=1;
@@ -349,7 +350,7 @@ public class Test02 {
 		
 		
 		/*
-		 *¾Å¾Å³Ë·¨±í 
+		 *ï¿½Å¾Å³Ë·ï¿½ï¿½ï¿½ 
 		 */
 /*		for(int i=1;i<=9;i++)
 		{
@@ -364,7 +365,7 @@ public class Test02 {
 */
 		
 		/*
-		 * Éú³É0-100Ëæ»úÊý£¬Ö±µ½Éú³É88ÎªÖ¹£¬Í£Ö¹Ñ­»·
+		 * ï¿½ï¿½ï¿½ï¿½0-100ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½88ÎªÖ¹ï¿½ï¿½Í£Ö¹Ñ­ï¿½ï¿½
 		 */
 /*		int y=0;
 		for(int i=1;i<2;)
@@ -384,7 +385,7 @@ public class Test02 {
 */
 		
 		/*
-		 * °Ñ100~150Ö®¼ä²»ÄÜ±»3Õû³ýµÄÊýÊä³ö
+		 * ï¿½ï¿½100~150Ö®ï¿½ä²»ï¿½Ü±ï¿½3ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		 */
 /*		for(int i=100;i<=150;i++){
 			if(i%3!=0)
