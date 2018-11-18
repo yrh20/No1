@@ -2,5 +2,5 @@ package day02;
 
 public class B {
 
-	int c;
+	int c=10;
 }
