@@ -8,5 +8,6 @@ public class A {
 	int aaa;
 	int bbb;
 	int ecp=10;
+	int a1;
 
 }
